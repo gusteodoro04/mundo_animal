@@ -48,3 +48,8 @@ table img{
   color: #fff;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+table a{
+  text-decoration: none;
+  color: rgb(148, 99, 67);
+  font-weight: bold;
+}
