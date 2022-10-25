@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+ body{
+
+	font-family:Arial, Helvetica, sans-serif ; 
+	font-size : 18px;
+	margin: 0 auto;
+} 
+
+div#interface{
+
+			width: 1300px;
+			/*margin-top: 100px;
+			margin-right: 200px;
+			margin-bottom: 300px;
+			margin-left: 400px; */
+			/* margin:100px 200px 300´x 400px; */
+			/* margin: 300px */
+			/*margin:100px 50px; */
+			/* margin: 50px 200px 300px; */
+			margin:0 auto;
+	}
+
+
+    /*start cabecalho*/
+	.logo{
+
+		float: left;
+		width: 100px;
+		/*padding-top:10px; */
+	}
+
+	.titulo{
+
+		float: right;
+		width:1200px;
+		text-align: center;
+	}
+	.titulo	h1{
+
+			color: black;
+			font-style: italic;
+			float:left;
+			font-style: 50 px;
+			margin: 0;
+			font-family: 'Nunito-Sans', Arial, sans-serif;
+		}
+
+	.titulo h1 span{
+			color: #333;
+	}
+
+	.titulo h2{
+	color: #333;
+	font-size: 25px;
+
+}
+	/*start menu */
+	nav{background-color: green;}
+
+	.menu{
+
+		text-align: center;
+		list-style-type: none;
+		margin: 0;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		color:green;
+	}
+
+	.menu li{display: inline;}
+
+	.menu a{
+
+		color: #fff;
+		text-decoration:none;
+		font-weight: bold;
+        padding: 13px 20px;
+	}
+
+	.menu a:hover{
+
+		background-color: #333;
+		
+	}
+
+	/* start banner */
+	.banner{
+
+		background-image: url(../images/banner.jpg);		
+		background-size: 100%;			
+		height: 500px;
+		clear: both;		
+	}
+
+	.titulo2{
+
+		font-size: 45px;
+		color: black;	
+	}
+
+	.titulo3{
+
+		font-size: 25px;
+		color: green;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.subtitulo{
+
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.6);
+		height: 320px;
+		padding-top: 180px;
+		
+	}
+
+	/* start noticias (ctrl+;) */
+
+	.noticias{
+		width: 900px;
+		float: left;
+		/*border-style: solid;
+		border-width: 10px;
+		border-color: #f00;*/
+		/* border-top: 10px solid #156489; 
+		border-bottom: #990 15px dashed;
+		border-right: 5px dotted #099;
+		border-left: double #909 20px;*/
+		border-right: 2px solid green;
+		padding: 10px;
+	}
+
+	.noticias p{
+		text-align: justify;
+		text-indent: 25px;
+	}
+
+	.figura{
+		float: left;
+		margin: 0 15px 10px 0;
+		position: relative;								
+	}
+
+	.legenda{
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+		opacity: 0;	
+		/* transition: opacity 2s; */
+		transition: opacity 2s, background-color 2s; 
+		/* transition: all 5s; */					
+	}
+
+	.figura:hover .legenda{
+		opacity: 1;	
+		background-color: #333;	
+		/* background-color: rgba(255, 0, 0, 0.5);		 */
+	}
+
+	.link{
+		float: right;
+		background-color: green;
+		color: #fff;
+		text-decoration:none;
+		margin-right: 10px;
+		padding: 10px 15px;
+		border-radius: 25px;
+		transition: background-color 0.5s;
+	}
+
+	.link:hover{
+		background-color: #333;
+		
+	}
+
+	/* .figura img 
+	{ 
+		border-radius: 50%;
+	} */
+	 
+	.lateral{
+
+		float: right;
+		width: 368px;
+		padding-left: 5px;			
+	} 
+
+	.link-lateral{
+
+		color: #000;
+		text-decoration: none;
+	}
+
+	.link-lateral h2{
+
+		font-size: 20px;
+		color: #333;
+	}
+
+	.link-lateral img{
+		
+		opacity: 0.4;
+		transition: opacity 0.5s;
+	}
+
+	.link-lateral:hover img{
+		opacity: 1;	
+	}
+	.animais{
+		clear: both;
+	}
+	.animais h2{
+		font-family: 'Nunito';
+		text-align: center;
+		font-style: italic;
+		font-size: 40px;
+		padding-top: 25px;
+	}
+.animais figure{
+	float: left;
+    width: 285px;
+	margin: 20px;
+	background-color: green;
+	min-height: 420px;
+}
+.animais figure:hover{
+	background-color: #333;
+}
+.animais img{
+	width: 100%;
+}
+.animais figcaption{
+    padding: 10px;
+	text-align: center;
+}
+.rodape{
+	clear: both;
+	height: 110px;
+	background-image: url(../images/background.png);
+	padding: 25px 100px;
+}
+.slogan{
+	float: left;
+	color: #fff;
+}
+.copy{
+	float: right;
+	text-align: center;
+}
+.copy h2{
+	font-family: 'Nunito';
+	font-style: italic;
+}
+
+	
+
+
+
+
+	
+
+	
+
+		

@@ -1,0 +1,36 @@
+.racas{
+    background-image: url(../images/chow-chow-02.jpg);
+    background-size: cover;
+    height: 400px;
+    clear: both;
+    position: relative;
+    margin-bottom: 125px;
+}
+.racas div{
+    background-color: #fff;
+    width: 700px;
+    position: absolute;
+    bottom: -100px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.racas h3{
+  font-size: 16px;
+  font-weight: normal;
+}
+.racas h2{
+  font-weight: normal;
+}
+table{
+  width: 1000px;
+  margin: 0 auto 50px;
+}
+table,
+td,
+th{
+  border: 1px solid #000;
+  border-spacing: 0;
+}
+td, th{
+  padding: 10px;
+}
