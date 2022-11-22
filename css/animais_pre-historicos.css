@@ -1,0 +1,14 @@
+.midia{
+    width: 1000px;
+    margin: 0;
+}
+video{
+    float: left;
+    width: 0 auto 25px;
+    
+}
+.midia div{
+    float: right;
+    width: 480px;
+    padding-right: 20px;
+}
